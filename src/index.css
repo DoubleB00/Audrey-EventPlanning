@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans antialiased;
+    line-height: 1.5;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2;
+  }
+}
+
+@layer components {
+  .font-script {
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+  }
+
+  .font-sans {
+    font-family: 'Inter', sans-serif;
+  }
+
+  .nav-link {
+    @apply text-gray-700 hover:text-blush transition-colors duration-300 font-medium;
+  }
+
+  .btn-primary {
+    @apply bg-gold text-white rounded-full font-medium transition-all duration-300 hover:shadow-xl hover:scale-105 focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2;
+  }
+
+  .btn-secondary {
+    @apply bg-white text-blush border-2 border-blush rounded-full font-medium transition-all duration-300 hover:bg-blush hover:text-white hover:shadow-xl hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blush focus:ring-offset-2;
+  }
+
+  .service-card {
+    @apply bg-white rounded-2xl p-8 shadow-elegant hover:shadow-2xl transition-all duration-300 hover:-translate-y-2;
+  }
+
+  .gallery-item {
+    @apply cursor-pointer;
+  }
+
+  .shadow-elegant {
+    box-shadow: 0 4px 20px rgba(218, 165, 165, 0.15);
+  }
+
+  .form-elegant {
+    @apply bg-white rounded-3xl p-8 md:p-12 shadow-elegant;
+  }
+
+  .form-group {
+    @apply mb-0;
+  }
+
+  .form-label {
+    @apply block text-sm font-medium text-gray-700 mb-2;
+  }
+
+  .form-input {
+    @apply w-full px-4 py-3 border border-champagne rounded-xl focus:outline-none focus:ring-2 focus:ring-gold focus:border-transparent transition-all duration-300 bg-white;
+  }
+
+  .form-input:focus {
+    @apply shadow-md;
+  }
+
+  .footer-link {
+    @apply flex items-center text-gray-700 hover:text-blush transition-colors duration-300;
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 1s ease-in;
+  }
+}
+
+@layer utilities {
+  .bg-cream {
+    background-color: #FAF9F6;
+  }
+
+  .bg-blush {
+    background-color: #F4C2C2;
+  }
+
+  .bg-blush\/5 {
+    background-color: rgba(244, 194, 194, 0.05);
+  }
+
+  .bg-blush\/10 {
+    background-color: rgba(244, 194, 194, 0.1);
+  }
+
+  .text-blush {
+    color: #DAA5A5;
+  }
+
+  .text-champagne-dark {
+    color: #C9A885;
+  }
+
+  .border-blush {
+    border-color: #F4C2C2;
+  }
+
+  .border-champagne {
+    border-color: #E8D5C4;
+  }
+
+  .bg-gold {
+    background-color: #D4AF37;
+  }
+
+  .text-gold {
+    color: #D4AF37;
+  }
+
+  .ring-gold {
+    --tw-ring-color: #D4AF37;
+  }
+
+  .ring-blush {
+    --tw-ring-color: #F4C2C2;
+  }
+
+  .from-blush\/10 {
+    --tw-gradient-from: rgba(244, 194, 194, 0.1);
+  }
+
+  .via-champagne\/20 {
+    --tw-gradient-to: rgba(232, 213, 196, 0.2);
+  }
+
+  .from-cream {
+    --tw-gradient-from: #FAF9F6;
+  }
+
+  .to-blush\/5 {
+    --tw-gradient-to: rgba(244, 194, 194, 0.05);
+  }
+
+  .to-champagne\/10 {
+    --tw-gradient-to: rgba(232, 213, 196, 0.1);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background-color: #F4C2C2;
+  color: white;
+}
