@@ -5,8 +5,14 @@ export default function Footer() {
     <footer className="bg-gradient-to-b from-blush/10 to-champagne/10 pt-14 pb-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-10">
-          <h3 className="text-4xl font-script text-blush mb-2">Audrey's Event Planning</h3>
-          <p className="text-xs uppercase tracking-widest text-champagne-dark">& Treatmaking</p>
+          <div className="flex justify-center mb-4">
+            <img
+              src="/att.DOn5QAZFOnrw9VO8Jhc5z9AogvDYYNOS1aZxDwN_YYg.JPG"
+              alt="Audrey Event Planning Catering and Treatmaking logo"
+              loading="lazy"
+              className="w-40 sm:w-48 h-auto object-contain"
+            />
+          </div>
 
           <div className="w-12 h-px bg-gold mx-auto my-6" />
 

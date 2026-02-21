@@ -12,6 +12,13 @@ export default function Hero({ onScrollTo }: HeroProps) {
       <div className="absolute inset-0 bg-gradient-to-b from-white/80 via-white/65 to-white/90" />
 
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
+        <div className="flex justify-center mb-6">
+          <img
+            src="/att.DOn5QAZFOnrw9VO8Jhc5z9AogvDYYNOS1aZxDwN_YYg.JPG"
+            alt="Audrey Event Planning Catering and Treatmaking logo"
+            className="w-48 sm:w-56 md:w-64 h-auto object-contain drop-shadow-lg"
+          />
+        </div>
         <p className="text-sm uppercase tracking-widest text-champagne-dark mb-4 font-medium">
           Riverside, CA
         </p>

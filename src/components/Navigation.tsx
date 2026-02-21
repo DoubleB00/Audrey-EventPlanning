@@ -17,13 +17,12 @@ export default function Navigation({ onScrollTo }: NavigationProps) {
     <nav className="fixed top-0 w-full bg-white/97 backdrop-blur-md shadow-sm z-50 border-b border-champagne/40">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
-          <div className="flex flex-col">
-            <span className="text-xl sm:text-2xl font-script text-blush leading-none">
-              Audrey's Event Planning
-            </span>
-            <span className="text-xs text-champagne-dark tracking-widest uppercase mt-1">
-              & Treatmaking · Riverside, CA
-            </span>
+          <div className="flex items-center">
+            <img
+              src="/att.DOn5QAZFOnrw9VO8Jhc5z9AogvDYYNOS1aZxDwN_YYg.JPG"
+              alt="Audrey Event Planning Catering and Treatmaking logo"
+              className="h-[45px] sm:h-[62px] w-auto object-contain"
+            />
           </div>
 
           <div className="hidden md:flex items-center space-x-8">
