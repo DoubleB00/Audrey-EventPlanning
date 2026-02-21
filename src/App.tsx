@@ -1,5 +1,6 @@
 import Navigation from './components/Navigation';
 import Hero from './components/Hero';
+import CateringBanner from './components/CateringBanner';
 import About from './components/About';
 import Services from './components/Services';
 import SignatureBars from './components/SignatureBars';
@@ -18,6 +19,7 @@ function App() {
     <div className="min-h-screen bg-cream">
       <Navigation onScrollTo={scrollToSection} />
       <Hero onScrollTo={scrollToSection} />
+      <CateringBanner />
       <About />
       <Services />
       <SignatureBars />
