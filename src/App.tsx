@@ -2,6 +2,7 @@ import Navigation from './components/Navigation';
 import Hero from './components/Hero';
 import About from './components/About';
 import Services from './components/Services';
+import SignatureBars from './components/SignatureBars';
 import Gallery from './components/Gallery';
 import BookingForm from './components/BookingForm';
 import Contract from './components/Contract';
@@ -19,6 +20,7 @@ function App() {
       <Hero onScrollTo={scrollToSection} />
       <About />
       <Services />
+      <SignatureBars />
       <Gallery />
       <BookingForm />
       <Contract />
