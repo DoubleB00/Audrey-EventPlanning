@@ -10,11 +10,31 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:image" content="https://bolt.new/static/og_default.png" />
   <style>
-    #userwayAccessibilityIcon {
+    #userwayAccessibilityIcon,
+    [id*="userway"],
+    [class*="userway"],
+    [id*="uw-"],
+    .uw-widget-holder,
+    #userwayBtn {
       bottom: 20px !important;
       right: 20px !important;
       top: auto !important;
       left: auto !important;
+      position: fixed !important;
+    }
+    @media (max-width: 768px) {
+      #userwayAccessibilityIcon,
+      [id*="userway"],
+      [class*="userway"],
+      [id*="uw-"],
+      .uw-widget-holder,
+      #userwayBtn {
+        bottom: 20px !important;
+        right: 20px !important;
+        top: auto !important;
+        left: auto !important;
+        position: fixed !important;
+      }
     }
   </style>
   </head>
