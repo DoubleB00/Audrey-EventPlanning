@@ -51,6 +51,9 @@ export default function Footer() {
           <p className="text-gray-400 text-xs">
             © 2026 Audrey's Event Planning & Treatmaking · Riverside, CA · All rights reserved.
           </p>
+          <p className="text-gray-300 text-xs mt-2 tracking-wide">
+            Accessibility tools available
+          </p>
         </div>
       </div>
     </footer>
