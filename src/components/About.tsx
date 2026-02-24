@@ -29,12 +29,9 @@ export default function About() {
             </div>
           </div>
 
-          <div className="order-1 md:order-2 grid grid-cols-2 gap-4">
-            <div className="rounded-2xl overflow-hidden shadow-elegant aspect-[3/4]">
+          <div className="order-1 md:order-2 flex justify-center">
+            <div className="rounded-2xl overflow-hidden shadow-elegant aspect-[3/4] w-full max-w-sm">
               <img src="/att.cBfMgj5SVP1jAJcM7Xga2QkuY41GbAdedXD8db9MIuA.JPG" alt="Chocolate covered strawberries and dipped Oreos" className="w-full h-full object-cover" loading="lazy" />
-            </div>
-            <div className="rounded-2xl overflow-hidden shadow-elegant aspect-[3/4] mt-8">
-              <img src="/att.sqF4CA0doMjwunUsIZiLo8VDhbP8yK9mPaT8i30o3-c.JPG" alt="Assorted chocolate treats and strawberry boxes" className="w-full h-full object-cover" loading="lazy" />
             </div>
           </div>
         </div>

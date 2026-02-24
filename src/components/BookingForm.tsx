@@ -33,7 +33,6 @@ const MAIN_SERVICES = [
 const ADD_ONS = [
   'Extra service hour',
   'Late night food',
-  'Staff uniforms',
   'Premium plates',
   'Custom signage',
   'Favor packaging',
