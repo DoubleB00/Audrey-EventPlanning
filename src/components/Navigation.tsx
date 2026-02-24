@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Menu, X, Phone } from 'lucide-react';
+import { Menu, X, Phone, Instagram } from 'lucide-react';
 
 interface NavigationProps {
   onScrollTo: (id: string) => void;
@@ -25,11 +25,20 @@ export default function Navigation({ onScrollTo }: NavigationProps) {
             />
           </div>
 
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-6">
             <button onClick={() => handleNav('about')} className="nav-link">About</button>
             <button onClick={() => handleNav('services')} className="nav-link">Services</button>
             <button onClick={() => handleNav('gallery')} className="nav-link">Gallery</button>
+            <button onClick={() => handleNav('policies')} className="nav-link">Policies</button>
             <button onClick={() => handleNav('booking')} className="nav-link">Book</button>
+            <a
+              href="https://instagram.com/audrey_events_treatmaking"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1.5 text-sm text-blush font-medium hover:text-gold transition-colors duration-300"
+            >
+              <Instagram size={15} />
+            </a>
             <a href="tel:9516679011" className="flex items-center gap-2 text-sm text-gold font-medium hover:text-blush transition-colors duration-300">
               <Phone size={15} />
               951-667-9011
@@ -48,8 +57,18 @@ export default function Navigation({ onScrollTo }: NavigationProps) {
             <button onClick={() => handleNav('about')} className="block w-full text-left py-2 nav-link">About</button>
             <button onClick={() => handleNav('services')} className="block w-full text-left py-2 nav-link">Services</button>
             <button onClick={() => handleNav('gallery')} className="block w-full text-left py-2 nav-link">Gallery</button>
+            <button onClick={() => handleNav('policies')} className="block w-full text-left py-2 nav-link">Policies</button>
             <button onClick={() => handleNav('booking')} className="block w-full text-left py-2 nav-link">Book</button>
-            <a href="tel:9516679011" className="flex items-center gap-2 py-2 text-gold font-medium">
+            <a
+              href="https://instagram.com/audrey_events_treatmaking"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 py-2 text-blush font-medium text-sm"
+            >
+              <Instagram size={15} />
+              @audrey_events_treatmaking
+            </a>
+            <a href="tel:9516679011" className="flex items-center gap-2 py-2 text-gold font-medium text-sm">
               <Phone size={15} />
               951-667-9011
             </a>

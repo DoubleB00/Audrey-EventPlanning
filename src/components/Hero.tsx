@@ -1,3 +1,5 @@
+import { Phone, Instagram } from 'lucide-react';
+
 interface HeroProps {
   onScrollTo: (id: string) => void;
 }
@@ -25,10 +27,30 @@ export default function Hero({ onScrollTo }: HeroProps) {
         <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-script text-blush mb-5 animate-fade-in leading-tight">
           Audrey's Event Planning & Treatmaking
         </h1>
-        <div className="w-20 h-px bg-gold mx-auto mb-6" />
-        <p className="text-base sm:text-xl md:text-2xl text-champagne-dark mb-10 font-light tracking-wide">
-          Catering&nbsp;&nbsp;•&nbsp;&nbsp;Desserts&nbsp;&nbsp;•&nbsp;&nbsp;Boba Bar&nbsp;&nbsp;•&nbsp;&nbsp;Event Rentals
+        <div className="w-20 h-px bg-gold mx-auto mb-4" />
+        <p className="text-base sm:text-lg md:text-xl text-champagne-dark mb-6 font-light tracking-wide">
+          Event Planning&nbsp;&nbsp;•&nbsp;&nbsp;Catering&nbsp;&nbsp;•&nbsp;&nbsp;Treatmaking
         </p>
+
+        <div className="flex flex-col sm:flex-row gap-3 justify-center mb-7">
+          <a
+            href="tel:9516679011"
+            className="inline-flex items-center justify-center gap-2 bg-white/90 border border-champagne text-champagne-dark hover:bg-gold hover:text-white hover:border-gold transition-all duration-300 rounded-full text-sm font-medium px-7 py-3 shadow-sm"
+          >
+            <Phone size={15} />
+            951-667-9011
+          </a>
+          <a
+            href="https://instagram.com/audrey_events_treatmaking"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center gap-2 bg-white/90 border border-champagne text-champagne-dark hover:bg-blush hover:text-white hover:border-blush transition-all duration-300 rounded-full text-sm font-medium px-7 py-3 shadow-sm"
+          >
+            <Instagram size={15} />
+            @audrey_events_treatmaking
+          </a>
+        </div>
+
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <button onClick={() => onScrollTo('booking')} className="btn-primary text-base px-10 py-4">
             Book Your Event
@@ -37,9 +59,6 @@ export default function Hero({ onScrollTo }: HeroProps) {
             View Our Work
           </button>
         </div>
-        <p className="mt-6 text-sm text-gray-500">
-          Call us · <a href="tel:9516679011" className="text-gold hover:underline">951-667-9011</a>
-        </p>
       </div>
 
       <div className="absolute bottom-8 left-0 right-0 flex justify-center animate-bounce-slow z-10">
