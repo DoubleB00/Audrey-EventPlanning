@@ -18,7 +18,7 @@ const galleryItems = [
     category: 'Treats'
   },
   {
-    src: '/image3.jpeg',
+    src: '/att-treats-glitter-oreos.JPG',
     alt: 'Dessert treats with glitter oreos and strawberries',
     category: 'Treats'
   },
