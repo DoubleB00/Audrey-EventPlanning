@@ -8,8 +8,8 @@ const galleryItems = [
     category: 'Treats'
   },
   {
-    src: '/image1.jpeg',
-    alt: 'Chocolate covered strawberries and dipped oreos',
+    src: '/att.cBfMgj5SVP1jAJcM7Xga2QkuY41GbAdedXD8db9MIuA.JPG',
+    alt: "Chocolate covered strawberries and macarons dessert display by Audrey's Event Planning & Treatmaking",
     category: 'Treats'
   },
   {
