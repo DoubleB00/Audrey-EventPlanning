@@ -8,8 +8,8 @@ const galleryItems = [
     category: 'Treats'
   },
   {
-    src: '/att.cBfMgj5SVP1jAJcM7Xga2QkuY41GbAdedXD8db9MIuA.JPG',
-    alt: "Chocolate covered strawberries and macarons dessert display by Audrey's Event Planning & Treatmaking",
+    src: '/image1.jpeg',
+    alt: 'Chocolate covered strawberries and dipped oreos',
     category: 'Treats'
   },
   {
@@ -18,7 +18,7 @@ const galleryItems = [
     category: 'Treats'
   },
   {
-    src: '/att-treats-glitter-oreos.JPG',
+    src: '/att.cBfMgj5SVP1jAJcM7Xga2QkuY41GbAdedXD8db9MIuA.JPG',
     alt: 'Dessert treats with glitter oreos and strawberries',
     category: 'Treats'
   },
